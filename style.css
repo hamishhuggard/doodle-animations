@@ -1,0 +1,32 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: none; /* Hide cursor */
+}
+
+#puppet {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#face {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* This ensures that the aspect ratio is maintained */
+    position: absolute;
+    left: 0;
+    right: 0;
+}
